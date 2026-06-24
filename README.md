@@ -1,155 +1,140 @@
-# TheLook-Ecommerce-Analytics project
-Overview
+# TheLook Ecommerce Analytics Dashboard
 
-This project analyzes the TheLook Ecommerce Dataset from Google BigQuery to uncover insights into customer behavior, product performance, revenue trends, retention, and conversion funnels. The goal is to transform raw ecommerce data into actionable business insights through SQL analysis and interactive dashboards.
-Business Problem
-Ecommerce companies generate large amounts of transactional and behavioral data. However, without proper analysis, it is difficult to understand:
-Which products generate the most revenue
-Who the most valuable customers are
-How customer retention changes over time
-Where customers drop off in the purchase journey
-Which business areas require optimization
-This project addresses these questions using data analytics and business intelligence techniques.
-Dataset
-Source: TheLook Ecommerce Dataset (https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1sbigquery-public-data!2sthelook_ecommerce)
+## Project Overview
 
--Main Tables
--Users
--Orders
--Order Items
--Products
--Inventory Items
--Events
--Distribution Centers
+This project analyzes the TheLook Ecommerce dataset using SQL, Google BigQuery, and Power BI. The objective was to transform raw ecommerce data into actionable business insights by examining sales performance, customer behavior, product trends, and customer retention.
 
-## Executive Dashboard
+The project provides interactive dashboards and executive-level reporting to support data-driven decision-making.
 
-![Executive Dashboard](dashboards/executive_overview.png)
+---
 
-## Product Analytics Dashboard
+## Project Goals
 
-![Product Analytics](dashboards/product_analytics.png)
+- Analyze revenue performance and growth trends
+- Identify high-performing product categories
+- Understand customer demographics and purchasing behavior
+- Measure customer retention and repeat purchase patterns
+- Deliver business recommendations through interactive dashboards
 
+---
 
-# Tools & Technologies
-SQL
-Google BigQuery
-Power BI
-Looker Studio
+## Tools & Technologies
 
-# Analytics Framework
-1. Executive Overview
-Key business KPIs:
-Total Revenue
-Total Orders
-Total Customers
-Active Customers
-Purchase Rate
-Repeat Purchase Rate
+- SQL
+- Google BigQuery
+- Power BI
+- Data Analysis
+- Business Intelligence
+- Data Visualization
 
-2. Product Analytics
-Analyzed:
-Revenue by category
-Best-selling products
-Top-performing categories
-Inventory vs sales performance
-Product contribution to revenue
+---
 
-3. Customer Analytics
-Analyzed:
-Customer segmentation
-Customer lifetime value indicators
-Purchasing behavior
-Gender and age distribution
-High-value customer groups
+## Key Business Questions
 
-4. Retention Analytics
-Analyzed:
-Cohort retention
-Repeat purchase behavior
-Customer retention trends
-Customer churn indicators
+### Sales Performance
+- How has revenue changed over time?
+- Which countries generate the highest revenue?
+- What is the average order value?
 
-5. Funnel Analytics
-Analyzed:
-Session → View
-View → Cart
-Cart → Purchase
-Funnel conversion rates
-Drop-off analysis
+### Product Analysis
+- Which product categories generate the most revenue?
+- Which products are top performers?
 
-6. Geographic Analytics
-Analyzed:
-Revenue by country
-Customer distribution
-Regional performance
-Geographic sales trends
-Key Results
-Business KPIs
-KPI
-Value
-Total Revenue
-$2.66M+
-Total Orders
-181,042
-Total Customers
-31,141
-Active Customers
-27,387
-Purchase Rate
-85.53%
-Repeat Purchase Rate
-12.39%
+### Customer Analysis
+- Which customer segments are most valuable?
+- How does revenue differ across gender and age groups?
 
-# Insights
-Revenue exceeded $2.6 million during the analysis period.
-A small group of customers generated a significant share of total revenue.
-Product category performance varied considerably across segments.
-Retention rates declined over time, highlighting opportunities for customer engagement strategies.
-Funnel analysis identified stages with the highest customer drop-off.
--Dashboard Preview
--Executive Overview
--Product Analytics
--Customer Analytics
--Retention Analytics
--Funnel Analytics
--Geographic Analytics
--Project Structure
-thelook-ecommerce-analytics/
+### Retention Analysis
+- What percentage of customers return?
+- How does customer retention change over time?
+
+---
+
+## Key Results
+
+- Total Revenue: $2.66M
+- Total Orders: 31.1K
+- Total Customers: 27.4K
+- Average Order Value: $85.53
+- Repeat Customer Rate: 12.39%
+
+### Major Insights
+
+- Revenue showed strong growth over time.
+- Outerwear & Coats and Jeans generated the highest revenue.
+- Customers aged 55+ generated the largest share of revenue.
+- Female customers contributed slightly more revenue than male customers.
+- Customer retention decreases significantly after the first few months.
+- Repeat purchase opportunities remain a major growth area.
+
+---
+
+## Dashboard Screenshots
+
+### Executive Overview Dashboard
+
+![Executive Dashboard](screenshots/executive_dashboard.png)
+
+---
+
+### Customer Segmentation Dashboard
+
+![Customer Dashboard](screenshots/customer_dashboard.png)
+
+---
+
+### Product Revenue Analysis
+
+![Product Dashboard](screenshots/product_dashboard.png)
+
+---
+
+### Retention Analytics Dashboard
+
+![Retention Dashboard](screenshots/retentation_dashboard.png)
+
+---
+
+### Revenue Trend Analysis
+
+![Revenue Trend Dashboard](screenshots/reveneu trend bty month_dashboard.png)
+
+---
+
+## Repository Structure
+
+```text
+thelook-ecommerce-analytics
 │
 ├── README.md
-├── sql/
-│   ├── thelook_ecommerce.sql
-│     
+├── presentation.pptx
 │
-├── dashboards/
-│   ├── executive_overview.png
-│   ├── product_analytics.png
-│   ├── customer_analytics.png
-│   ├── retention_analytics.png
-│   ├── funnel_analytics.png
+├── sql
+│   └── ecommerce_analysis.sql
 │
-├── presentation/
-│   └── Ecommerce_Analytics_Presentation.pdf
-│
-└── docs/
-    └── Project_Report.pdf
+└── screenshots
+    ├── executive_dashboard.png
+    ├── customer_dashboard.png
+    ├── product_dashboard.png
+    ├── retentation_dashboard.png
+    └── reveneu trend bty month_dashboard.png
+```
 
-# Skills Demonstrated
-SQL Querying
-Data Cleaning
-Data Analysis
-Business Intelligence
-Data Visualization
-Dashboard Design
-Customer Analytics
-Cohort Analysis
-Funnel Analysis
-Data Storytelling
+## Deliverables
 
-# Author
+- SQL Analysis Scripts
+- Executive Dashboard
+- Customer Analytics Dashboard
+- Product Performance Dashboard
+- Retention Analytics Dashboard
+- Business Presentation
+
+---
+
+## Author
+
 Muhiddin
-MBA in IT |Big Data Analytics Enthusiast
-Connect With Me
-LinkedIn:
-⭐️ If you found this project interesting, feel free to star the repository and connect with me on LinkedIn.
+
+MBA in IT | Data Analyst
+
+SQL • Python • Power BI • BigQuery • Data Visualization
